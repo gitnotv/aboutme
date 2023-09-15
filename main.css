@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+.main {
+    font-weight: normal;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    border-bottom: 1px gray solid;
+
+}
+
+body {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rgb(31,30,31);
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.text {
+    padding-top:10px;
+    margin-left:50px;
+    margin-right:50px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    border: 1px dashed white;
+    border-radius: 20px;
+    animation: fadeIn 2s;
+}
+
+.header {
+    margin-left: 10px;
+    color: white;
+    font-size: 50px;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    margin-bottom: 15px;
+    max-width: fit-content;
+}
+
+
+
+
+.para {
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    line-height: 30px;
+    max-width: fit-content;
+}
+
+
+
+.sep{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    max-width: fit-content;
+    position: absolute;
+    right: 13%;
+    top: 65%;
+    text-align: right;
+}
+
+.cg {
+    color: rgb(46, 210, 46);
+    font-weight: bold;
+}
+
+.cr {
+    color: rgb(227, 163, 37);
+    font-weight: bold;
+}
+
+.cp {
+    color: rgb(192, 37, 227);
+    font-weight: bold;
+}
+.cs {
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+}
+.cdg {
+    color: rgb(17, 99, 13);
+    font-weight: bold;
+}
+.cy {
+    color: rgb(227, 189, 37);
+    font-weight: bold;
+}
+iframe {
+    margin-left: 1200px;
+    margin-top:0%;
+}
+
+/* Set the video container to position:relative so that we can use position:absolute for the video */
+.video-container {
+    position: relative;
+  }
+  
+  /* Position the video absolutely in the top-right corner */
+.video-container iframe {
+    position: absolute;
+    top: 0%;
+    right: 2%;
+}
+
