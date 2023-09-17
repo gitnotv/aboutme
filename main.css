@@ -61,16 +61,6 @@ body {
 
 
 
-.sep{
-    font-size: 30px;
-    font-family: 'Nunito', sans-serif;
-    color: white;
-    max-width: fit-content;
-    position: absolute;
-    right: 13%;
-    top: 65%;
-    text-align: right;
-}
 
 .cg {
     color: rgb(46, 210, 46);
@@ -103,15 +93,5 @@ iframe {
     margin-top:0%;
 }
 
-/* Set the video container to position:relative so that we can use position:absolute for the video */
-.video-container {
-    position: relative;
-  }
-  
-  /* Position the video absolutely in the top-right corner */
-.video-container iframe {
-    position: absolute;
-    top: 0%;
-    right: 2%;
-}
+
 
