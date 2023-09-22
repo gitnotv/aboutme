@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 .main {
     font-weight: normal;
     background-color: rgb(44, 44, 44);
@@ -8,7 +9,6 @@
     font-size: 100px;
     text-align: center;
     border-bottom: 1px gray solid;
-
 }
 
 body {
@@ -32,9 +32,9 @@ body {
     font-family: 'M PLUS Code Latin', sans-serif;
     font-size: 50px;
     text-align: center;
-    border: 1px dashed white;
+    border: 1px solid white;
     border-radius: 20px;
-    animation: fadeIn 2s;
+    animation: fadeIn 3s;
 }
 
 .header {
@@ -58,6 +58,7 @@ body {
     line-height: 30px;
     max-width: fit-content;
 }
+
 
 
 
@@ -88,9 +89,43 @@ body {
     color: rgb(227, 189, 37);
     font-weight: bold;
 }
-iframe {
-    margin-left: 1200px;
-    margin-top:0%;
+
+
+.video {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+}
+.sep {
+    font-size: 30px;
+    color:white;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+    border: dotted rgb(221, 100, 86) 3px;
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+.y {
+    position: absolute;
+    left:55%;
+    top: 340px;
+    width: 500px;
+}
+
+.desmos {
+    position: absolute;
+    left:55%;
+    top: 540px;
+    width: 540px;
+    border-radius: 10px;
+
+}
+
+.debug {
+    border: 1px solid white;
 }
 
 
