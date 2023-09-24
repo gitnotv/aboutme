@@ -91,10 +91,17 @@ body {
 }
 
 
-.video {
-    position: absolute;
-    left: 0px;
-    top: 50%;
+/* unvisited link */
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: underline 1px;
+}
+  
+  /* visited link */
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: underline 1px;
+    
 }
 .sep {
     font-size: 30px;
@@ -127,6 +134,3 @@ body {
 .debug {
     border: 1px solid white;
 }
-
-
-
