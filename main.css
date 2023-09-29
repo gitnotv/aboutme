@@ -108,12 +108,11 @@ a:visited {
     color:white;
     text-align: center;
     padding: 30px 20px 30px 20px;
-    border: dotted rgb(221, 100, 86) 3px;
-    border-radius: 10px;
+    border: solid rgb(227, 127, 50) 3px;
+    border-radius: 15px;
     font-family: 'Playfair Display', serif;
 
 }
-
 
 .y {
     position: absolute;
